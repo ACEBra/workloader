@@ -1,0 +1,102 @@
+{
+    "id": "584197e322314e8a2b000590",
+    "name": "Dur_LDX_003",
+    "address": "10.228.56.21",
+    "description": "",
+    "version": "0.60.39983-SP3",
+    "admin_mac": "0C:C4:7A:E2:76:B3",
+    "serial_number": "4015563",
+    "ports": [
+        {
+            "_id": "5ac87e8422314e63a98245b8",
+            "port_id": 0,
+            "type": "port_1GE",
+            "macaddr": "A0:36:9F:C0:DD:DD",
+            "slot": "3.0",
+            "state": "running",
+            "appliance_id": "584197e322314e8a2b000590",
+            "_type": "AppliancePort",
+            "usage": {
+                "used_by": "Stephen Shao",
+                "test_id": "5bbed320421aa93b6b942c31"
+            }
+        },
+        {
+            "_id": "5ac87e8422314e63a98245b9",
+            "port_id": 1,
+            "type": "port_1GE",
+            "macaddr": "A0:36:9F:C0:DD:DC",
+            "slot": "3.1",
+            "state": "idle",
+            "appliance_id": "584197e322314e8a2b000590",
+            "_type": "AppliancePort",
+            "usage": {}
+        },
+        {
+            "_id": "5ac87e8422314e63a98245ba",
+            "port_id": 2,
+            "type": "port_1GE",
+            "macaddr": "A0:36:9F:C0:DD:DF",
+            "slot": "3.2",
+            "state": "idle",
+            "appliance_id": "584197e322314e8a2b000590",
+            "_type": "AppliancePort",
+            "usage": {}
+        },
+        {
+            "_id": "5ac87e8422314e63a98245bb",
+            "port_id": 3,
+            "type": "port_1GE",
+            "macaddr": "A0:36:9F:C0:DD:DE",
+            "slot": "3.3",
+            "state": "idle",
+            "appliance_id": "584197e322314e8a2b000590",
+            "_type": "AppliancePort",
+            "usage": {}
+        },
+        {
+            "_id": "5ac87e8422314e63a98245bc",
+            "port_id": 4,
+            "type": "port_1GE",
+            "macaddr": "A0:36:9F:C0:DE:CD",
+            "slot": "1.0",
+            "state": "idle",
+            "appliance_id": "584197e322314e8a2b000590",
+            "_type": "AppliancePort",
+            "usage": {}
+        },
+        {
+            "_id": "5ac87e8422314e63a98245bd",
+            "port_id": 5,
+            "type": "port_1GE",
+            "macaddr": "A0:36:9F:C0:DE:CC",
+            "slot": "1.1",
+            "state": "idle",
+            "appliance_id": "584197e322314e8a2b000590",
+            "_type": "AppliancePort",
+            "usage": {}
+        },
+        {
+            "_id": "5ac87e8422314e63a98245be",
+            "port_id": 6,
+            "type": "port_1GE",
+            "macaddr": "A0:36:9F:C0:DE:CF",
+            "slot": "1.2",
+            "state": "idle",
+            "appliance_id": "584197e322314e8a2b000590",
+            "_type": "AppliancePort",
+            "usage": {}
+        },
+        {
+            "_id": "5ac87e8422314e63a98245bf",
+            "port_id": 7,
+            "type": "port_1GE",
+            "macaddr": "A0:36:9F:C0:DE:CE",
+            "slot": "1.3",
+            "state": "idle",
+            "appliance_id": "584197e322314e8a2b000590",
+            "_type": "AppliancePort",
+            "usage": {}
+        }
+    ]
+}

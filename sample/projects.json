@@ -1,0 +1,50 @@
+{
+    "id": "5bab3468421aa95fcc497733",
+    "_type": "Workload::HiFiSmbWorkload",
+    "name": "OB-D1494_800GB_MUP",
+    "description": "OB-D1494_800GB_CIFS High Fidelity SMB",
+    "duration": {
+        "value": "24",
+        "unit": "days"
+    },
+    "protocols": [
+        "SMB2",
+        "SMB"
+    ],
+    "created_at": "2018-09-26T07:25:29.124Z",
+    "updated_at": "2018-09-26T09:56:15.577Z",
+    "last_run_on": "2018-09-26T09:56:15.420Z",
+    "tags": [
+        "Workload",
+        "OB-D1494"
+    ],
+    "private": false,
+    "test_bed_id": "5ba0a41d421aa90bfaa7e322",
+    "retrieve_summary": false,
+    "diagnostics_mode": false,
+    "owner_name": "Stephen Shao",
+    "pre_project": {
+        "id": "5bab3468421aa95fcc49784c",
+        "name": "Pretest: OB-D1494_800GB_MUP"
+    },
+    "tracing_parameters_states": [
+        "enabled"
+    ],
+    "tests": [
+        {
+            "id": "5bab57be421aa95fab498e72"
+        },
+        {
+            "id": "5bab5765421aa95fc1499f3c"
+        },
+        {
+            "id": "5bab568f421aa95fb6498d81"
+        },
+        {
+            "id": "5bab3b58421aa95fcc498137"
+        },
+        {
+            "id": "5bab39a5421aa95fc149923b"
+        }
+    ]
+}

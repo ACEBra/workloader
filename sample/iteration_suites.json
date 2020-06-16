@@ -1,0 +1,96 @@
+{
+    "id": "5aeb05df22314e7da5f8e2d5",
+    "name": "Greg T System Iteration Suite IPv6 4 LDX Ports on LDX_1_2_MTU1280",
+    "description": null,
+    "created_at": "2018-05-03T12:51:43.406Z",
+    "updated_at": "2018-05-03T13:27:44.657Z",
+    "tags": [
+        "IPV6",
+        "File",
+        "GregSmith",
+        "Iteration",
+        "NFSv3",
+        "4Ports"
+    ],
+    "private": false,
+    "duration": 360720,
+    "run_pre_test": "dont_run",
+    "iteration_duration": 14400,
+    "delay": 30,
+    "owner_name": "Greg Smith",
+    "iteration_parameters": [
+        {
+            "name": "R/W - Constant Block Sizes",
+            "value": "4KB, 8KB, 16KB, 32KB, 64KB",
+            "code": "presetDimensionIo_read_as_write_constant_block_size"
+        },
+        {
+            "name": "Access Pattern - Read %",
+            "value": "0, 25, 50, 75, 100",
+            "code": "presetDimensionBaseAccessPattern_read"
+        }
+    ],
+    "iteration_outputs": [
+        {
+            "name": "rpc.bytes_ps",
+            "grouping": "average",
+            "unit": 2097152,
+            "unit_suffix": "MB/sec"
+        },
+        {
+            "name": "rpc.actions.succeeds_ps",
+            "grouping": "average",
+            "unit": null,
+            "unit_suffix": null
+        },
+        {
+            "name": "rpc.time.rate_average",
+            "grouping": "average",
+            "unit": 512,
+            "unit_suffix": "ms"
+        },
+        {
+            "name": "load.scenarios.aborts",
+            "grouping": "average",
+            "unit": null,
+            "unit_suffix": null
+        },
+        {
+            "name": "load.scenarios.fails",
+            "grouping": "average",
+            "unit": null,
+            "unit_suffix": null
+        }
+    ],
+    "test_suites": [
+        {
+            "id": "5aeb0e5022314e7d66f597d3",
+            "name_cache": "Greg T System Iteration Suite IPv6 4 LDX Ports on LDX_1_2_MTU1280",
+            "state": "finished",
+            "created_at": "2018-05-03T13:27:44.624Z",
+            "finished_at": "2018-05-07T18:16:11.468Z"
+        },
+        {
+            "id": "5aeb0af822314e7da5f8e412",
+            "name_cache": "Greg T System Iteration Suite IPv6 4 LDX Ports on LDX_1_2_MTU1280",
+            "state": "finished",
+            "created_at": "2018-05-03T13:13:28.465Z",
+            "finished_at": "2018-05-03T13:16:29.154Z"
+        },
+        {
+            "id": "5aeb06f622314e7d45f6dfef",
+            "name_cache": "Greg T System Iteration Suite IPv6 4 LDX Ports on LDX_1_2_MTU1280",
+            "state": "finished",
+            "created_at": "2018-05-03T12:56:22.210Z",
+            "finished_at": "2018-05-03T13:12:19.602Z"
+        }
+    ],
+    "project": {
+        "id": "5941278622314e159f585389",
+        "name": "Greg 01 High Fidelity NFSv3 Workload 2 TB PoC 4 Port"
+    },
+    "test_bed": {
+        "id": "5aeb057922314e7d89f79f2d",
+        "name": "4Ports_LDX1:0-1_LDX2:0-1_MTU1280_4Lnks256IPV6s_VLAN593_4_nfsIPv6Srvcs_acdc_daca_1NFS3sharePerSP_Tsystem"
+    }
+}

@@ -1,0 +1,208 @@
+{
+    "id": "5b859aaa421aa90c80b56728",
+    "name": "OB-D1448_Ashish_VLAN590_NFS3_4_SMB2_Composite",
+    "description": "Composite workload with NFS3/4.1/SMB2 for OB-D1448 using Vlan 590",
+    "protocols": [
+        "PMAPv2",
+        "MNTv3",
+        "NFSv3",
+        "NFSv4.1",
+        "SMB2",
+        "SMB"
+    ],
+    "created_at": "2018-08-28T18:55:39.503Z",
+    "updated_at": "2018-09-20T19:57:15.768Z",
+    "last_run_on": "2018-09-20T19:57:13.699Z",
+    "tags": [
+        "Composite",
+        "Workload"
+    ],
+    "private": false,
+    "owner_name": "Ashish Pancholi",
+    "duration": 349600,
+    "workload_groups": [
+        {
+            "name": "NFS_Workload",
+            "workloads": [
+                {
+                    "id": "5b859246421aa90c80b562f6",
+                    "duration": 345600,
+                    "load_profile": {
+                        "unit": "MB/sec",
+                        "value": 70,
+                        "type": "throughput",
+                        "concurrent_workers": 550,
+                        "rampup": 2000,
+                        "rampdown": 2000
+                    }
+                },
+                {
+                    "id": "5b8594d4421aa916edb58374",
+                    "duration": 345600,
+                    "load_profile": {
+                        "unit": "MB/sec",
+                        "value": 70,
+                        "type": "throughput",
+                        "concurrent_workers": 550,
+                        "rampup": 2000,
+                        "rampdown": 2000
+                    }
+                },
+                {
+                    "id": "5b85963a421aa91701b54554",
+                    "duration": 345600,
+                    "load_profile": {
+                        "unit": "MB/sec",
+                        "value": 70,
+                        "type": "throughput",
+                        "concurrent_workers": 550,
+                        "rampup": 2000,
+                        "rampdown": 2000
+                    }
+                },
+                {
+                    "id": "5b859678421aa90cbfb5d952",
+                    "duration": 345600,
+                    "load_profile": {
+                        "unit": "MB/sec",
+                        "value": 70,
+                        "type": "throughput",
+                        "concurrent_workers": 550,
+                        "rampup": 2000,
+                        "rampdown": 2000
+                    }
+                },
+                {
+                    "id": "5b8596e9421aa916edb58976",
+                    "duration": 345600,
+                    "load_profile": {
+                        "unit": "MB/sec",
+                        "value": 70,
+                        "type": "throughput",
+                        "concurrent_workers": 550,
+                        "rampup": 2000,
+                        "rampdown": 2000
+                    }
+                },
+                {
+                    "id": "5b8598bb421aa916edb5935b",
+                    "duration": 345600,
+                    "load_profile": {
+                        "unit": "MB/sec",
+                        "value": 70,
+                        "type": "throughput",
+                        "concurrent_workers": 550,
+                        "rampup": 2000,
+                        "rampdown": 2000
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SMB_Workload",
+            "workloads": [
+                {
+                    "id": "5b859246421aa90c80b562f6",
+                    "duration": 345600,
+                    "load_profile": {
+                        "unit": "MB/sec",
+                        "value": 70,
+                        "type": "throughput",
+                        "concurrent_workers": 550,
+                        "rampup": 2000,
+                        "rampdown": 2000
+                    }
+                },
+                {
+                    "id": "5b8594d4421aa916edb58374",
+                    "duration": 345600,
+                    "load_profile": {
+                        "unit": "MB/sec",
+                        "value": 70,
+                        "type": "throughput",
+                        "concurrent_workers": 550,
+                        "rampup": 2000,
+                        "rampdown": 2000
+                    }
+                },
+                {
+                    "id": "5b85963a421aa91701b54554",
+                    "duration": 345600,
+                    "load_profile": {
+                        "unit": "MB/sec",
+                        "value": 70,
+                        "type": "throughput",
+                        "concurrent_workers": 550,
+                        "rampup": 2000,
+                        "rampdown": 2000
+                    }
+                },
+                {
+                    "id": "5b859678421aa90cbfb5d952",
+                    "duration": 345600,
+                    "load_profile": {
+                        "unit": "MB/sec",
+                        "value": 70,
+                        "type": "throughput",
+                        "concurrent_workers": 550,
+                        "rampup": 2000,
+                        "rampdown": 2000
+                    }
+                },
+                {
+                    "id": "5b8596e9421aa916edb58976",
+                    "duration": 345600,
+                    "load_profile": {
+                        "unit": "MB/sec",
+                        "value": 70,
+                        "type": "throughput",
+                        "concurrent_workers": 550,
+                        "rampup": 2000,
+                        "rampdown": 2000
+                    }
+                },
+                {
+                    "id": "5b8598bb421aa916edb5935b",
+                    "duration": 345600,
+                    "load_profile": {
+                        "unit": "MB/sec",
+                        "value": 70,
+                        "type": "throughput",
+                        "concurrent_workers": 550,
+                        "rampup": 2000,
+                        "rampdown": 2000
+                    }
+                }
+            ]
+        }
+    ],
+    "tests": [
+        {
+            "id": "5ba3fb97421aa907129a6b7e"
+        },
+        {
+            "id": "5ba28de1421aa90bfaa7ef1c"
+        },
+        {
+            "id": "5ba004f2421aa90c409a0680"
+        },
+        {
+            "id": "5b9aef80421aa9071299cb9b"
+        },
+        {
+            "id": "5b918148421aa916edb672bf"
+        },
+        {
+            "id": "5b8efc17421aa90c80b5ee65"
+        },
+        {
+            "id": "5b896ff7421aa91701b5e0c1"
+        },
+        {
+            "id": "5b870105421aa90c9db50abc"
+        },
+        {
+            "id": "5b859dc9421aa90cbfb5ff75"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "id": "5af489bd22314e7d0cfabd3a",
+    "name_cache": "Four day  iteration suite varying 6 parameters",
+    "state": "finished",
+    "created_at": "2018-05-10T18:04:45.135Z",
+    "finished_at": "2018-05-16T03:21:13.500Z",
+    "run_pre_test": "dont_run",
+    "iteration_duration": 3600,
+    "owner_name": "Greg Smith",
+    "iteration_parameters": [
+        {
+            "name": "Access Pattern - Read %",
+            "value": "0",
+            "code": "presetDimensionBaseAccessPattern_read"
+        },
+        {
+            "name": "Access Pattern - Data %",
+            "value": "100",
+            "code": "presetDimensionBaseAccessPattern_data"
+        },
+        {
+            "name": "File System - Distribution of File Sizes",
+            "value": "[1MB - 9MB: 01; 10MB - 19MB: 01; 20MB - 29MB: 01; 30MB - 39MB: 01; 40MB - 49MB: 96],  [1MB - 9MB: 96; 10MB - 19MB: 01; 20MB - 29MB: 01; 30MB - 39MB: 01; 40MB - 49MB: 01] ",
+            "code": "presetDimensionFileSystem_bin_based_file_size"
+        },
+        {
+            "name": "R/W - Distribution of Block Sizes",
+            "value": "[512bytes: 12;  8KB: 13; 16KB: 13; 32KB: 13; 64KB: 12; 128KB: 13; 512KB: 12; 1024KB: 12],  [1KB: 2; 2KB: 2; 4KB: 23; 8KB: 23; 16KB: 23; 32KB: 23; 256KB: 2; 1024KB: 2]",
+            "code": "presetDimensionIo_read_as_write_bins_block_size"
+        },
+        {
+            "name": "R/W - Pattern - Random %",
+            "value": "0,100",
+            "code": "presetDimensionIo_read_as_write_pattern_random"
+        },
+        {
+            "name": "R/W - Number of Asynchronous I/Os",
+            "value": "1,8",
+            "code": "presetDimensionIo_read_as_write_number_outstanding"
+        },
+        {
+            "name": "Data Reduction - Uncompressed to compressed ratio",
+            "value": " 20, 5",
+            "code": "presetDimensionDataParameters_reduction_compression_ratio"
+        },
+        {
+            "name": "Load - Max - Concurrent Workers",
+            "value": "12, 86",
+            "code": "loadProfile_scenarios_load_value"
+        }
+    ],
+    "iteration_outputs": [
+        {
+            "name": "rpc.bytes_ps",
+            "grouping": "average",
+            "unit": 2097152
+        },
+        {
+            "name": "rpc.actions.succeeds_ps",
+            "grouping": "average",
+            "unit": null
+        },
+        {
+            "name": "rpc.time.rate_average",
+            "grouping": "average",
+            "unit": 512
+        }
+    ],
+    "project": {
+        "id": "5a4fd41c22314e625801b1f7",
+        "name": "NFSv3 simpleAccss Tree 3lev128iles3ubfldrs varFsize varIOSz 8async Cmp5:1  3612wrkrs 20/80 RW 80/20 DM 80/20 RS Workload"
+    },
+    "test_bed": {
+        "id": "5a4fc82722314e374b45e744",
+        "name": "IP172.93.52.11_19_VLAN593_NFSvX_Benchmark_LDX4:5"
+    }
+}
