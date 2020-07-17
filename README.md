@@ -60,7 +60,6 @@ Oct 2018, v1.0.0:
 # Author
 <i>
 <h4>Stephen Shao</h4>
-<h4>SPE DevOps CEV China</h4>
 </i>
 
 ----
