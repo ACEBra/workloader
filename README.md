@@ -362,7 +362,7 @@ appliance = ww.get_appliance_by_name(name='app_003')
 ww.list_testbeds()
 
 # get a test_bed by name
-tb = ww.get_testbed_by_name("Stephen_LDX_005_VLAN590_OB-D1494")
+tb = ww.get_testbed_by_name("Stephen_LDX_005_VLAN590_1494")
 
 # change test_bed privacy
 ww.set_testbed_privacy("5ba0a41d421aa90bfaa7e322", private=True)
@@ -389,13 +389,13 @@ list = ww.list_projects()
 ww.list_projects(library=True)
 
 # get a project by name
-proj = ww.get_project_by_name("OB-D1494_800GB_MUP", list)
+proj = ww.get_project_by_name("1494_800GB_MUP", list)
 
 # clone a project
-proj_new = ww.clone_project(proj['id'], "OB-D1494_automation_debug_clone")
+proj_new = ww.clone_project(proj['id'], "1494_automation_debug_clone")
 
 # start a test by test name and test_bed name
-test = ww.start_test_by_name("OB-D1494_automation_debug_clone", "Stephen_LDX_005_VLAN590_OB-D1494", "600")
+test = ww.start_test_by_name("1494_automation_debug_clone", "Stephen_LDX_005_VLAN590_1494", "600")
 
 # wait until test complete
 ww.wait_until_test_complete(test['id'])

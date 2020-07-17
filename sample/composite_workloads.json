@@ -1,7 +1,7 @@
 {
     "id": "5b859aaa421aa90c80b56728",
-    "name": "OB-D1448_Ashish_VLAN590_NFS3_4_SMB2_Composite",
-    "description": "Composite workload with NFS3/4.1/SMB2 for OB-D1448 using Vlan 590",
+    "name": "1448VLAN590_NFS3_4_SMB2_Composite",
+    "description": "Composite workload with NFS3/4.1/SMB2 for 1448 using Vlan 590",
     "protocols": [
         "PMAPv2",
         "MNTv3",
@@ -18,7 +18,7 @@
         "Workload"
     ],
     "private": false,
-    "owner_name": "Ashish Pancholi",
+    "owner_name": "Stephen Shao",
     "duration": 349600,
     "workload_groups": [
         {

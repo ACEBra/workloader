@@ -1,6 +1,6 @@
 {
     "id": "5a67950022314e6258071de8",
-    "name": "OB-D1109_CIFS_NFS",
+    "name": "1109_CIFS_NFS",
     "description": "This will be a suit to run all workload serially for pretest.",
     "created_at": "2018-01-23T20:03:12.513Z",
     "updated_at": "2018-04-06T17:57:45.141Z",
@@ -14,7 +14,7 @@
         "SMB2",
         "SMB"
     ],
-    "owner_name": "Ashish Pancholi",
+    "owner_name": "Stephen Shao",
     "test_suites": [
         {
             "id": "5a6a265022314e628608eadc"
@@ -29,27 +29,27 @@
     "projects": [
         {
             "id": "5a5e3c1022314e628606b0b0",
-            "name": "OB-D1109_NFS4.1_60GB"
+            "name": "1109_NFS4.1_60GB"
         },
         {
             "id": "5a5e388b22314e374b4a9dc5",
-            "name": "OB-D1109_NFS3_60GB"
+            "name": "1109_NFS3_60GB"
         },
         {
             "id": "5a5e351722314e1bc1588001",
-            "name": "OB-D1109_CIFS_60GB"
+            "name": "1109_CIFS_60GB"
         },
         {
             "id": "5a5e31d122314e1bc1587733",
-            "name": "OB-D1109_CIFS_350GB"
+            "name": "1109_CIFS_350GB"
         },
         {
             "id": "5a5e318c22314e587324407b",
-            "name": "OB-D1109_NFS4.1_350GB"
+            "name": "1109_NFS4.1_350GB"
         },
         {
             "id": "5a5e316f22314e626f06a192",
-            "name": "OB-D1109_NFS3_350GB"
+            "name": "1109_NFS3_350GB"
         }
     ]
 }

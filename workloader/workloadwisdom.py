@@ -205,7 +205,7 @@ class WorkloadWisdom(object):
     def get_testbed_by_name(self, name, testbed_list=None):
         """Get a testbed JSON object by its name.
 
-        :param name: testbed name, e.g. 'OB-D1042_VLAN593_Greg_iSCSI_NFS_CIFS'
+        :param name: testbed name, e.g. '1042_VLAN593_Greg_iSCSI_NFS_CIFS'
         :param testbed_list: return of list_testbeds(), memory data might be out of date
         :return: :dict: dict of the testbed
         :rtype: dict
@@ -743,7 +743,7 @@ class WorkloadWisdom(object):
         [
             {
                 "id": "5bbed1ee421aa950e522f9e6",
-                "name": "OB-D1494_Automation_Debug"
+                "name": "1494_Automation_Debug"
             },
             {
                 "id": "5ba929b9421aa95fb64948a7",
@@ -796,7 +796,7 @@ class WorkloadWisdom(object):
     def get_project_by_name(self, name, project_list=None):
         """Get a project JSON object by its name
 
-        :param name: project name, e.g. 'OB-D1494_Automation_Debug'
+        :param name: project name, e.g. '1494_Automation_Debug'
         :param project_list: return of list_projects(), memory data might be out of date
         :return: :dict: dict of project JSON object
         :rtype: dict
@@ -892,11 +892,11 @@ class WorkloadWisdom(object):
         [
             {
                 "id": "5bdbde45421aa90c0177e149",
-                "name": "OB-D1056_Stephen_VLAN590_NFS3_4_SMB2_Composite"
+                "name": "1056_Stephen_VLAN590_NFS3_4_SMB2_Composite"
             },
             {
                 "id": "5bbe2a40421aa9472922efc6",
-                "name": "OB-D1448_Ashish_VLAN590_NFS3_SMB2_Composite"
+                "name": "1448VLAN590_NFS3_SMB2_Composite"
             }
         ]
         """
@@ -995,7 +995,7 @@ class WorkloadWisdom(object):
     def get_composite_workload_by_name(self, name, composite_list=None):
         """Get a project JSON object by its name
 
-        :param name: composite workload name, e.g. 'OB-D1056_Stephen_VLAN590_NFS3_4_SMB2_Composite'
+        :param name: composite workload name, e.g. '1056_Stephen_VLAN590_NFS3_4_SMB2_Composite'
         :param composite_list: return of list_composite_workloads(), memory data might be out of date
         :return: :dict: dict of project JSON object
         :rtype: dict
