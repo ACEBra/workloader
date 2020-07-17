@@ -7,7 +7,7 @@
 #   \/\_/ \____/|__|  |__|_ \____/\____(____  /\____ |\___  >__|
 #                          \/               \/      \/    \/
 #
-# Copyright (c) 2018 Stephen Shao <Stephen.Shao@emc.com>
+# Copyright (c) 2018 Stephen Shao <sjh311@gmail.com>
 #
 # This program is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the

@@ -7,7 +7,7 @@
 #   \/\_/ \____/|__|  |__|_ \____/\____(____  /\____ |\___  >__|
 #                          \/               \/      \/    \/
 #
-# Copyright (c) 2018 Stephen Shao <Stephen.Shao@emc.com>
+# Copyright (c) 2018 Stephen Shao <sjh311@gmail.com>
 #
 # This program is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the
@@ -30,9 +30,9 @@ setup(
     keywords='WorkloadWisdom workloader LDX',
     description = 'A library to control Workload Wisdom through REST API',
     license = 'GPL License',
-    url = 'https://eos2git.cec.lab.emc.com/shaos2/workloader',
+    url = 'https://github.com/ACEBra/workloader',
     author = 'Stephen Shao',
-    author_email = 'Stephen.Shao@emc.com',
+    author_email = 'sjh311@gmail.com',
     packages = find_packages(exclude=['docs', 'ext']),
     include_package_data = True,
     platforms = 'any',

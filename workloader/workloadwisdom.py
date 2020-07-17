@@ -7,7 +7,7 @@
 #   \/\_/ \____/|__|  |__|_ \____/\____(____  /\____ |\___  >__|
 #                          \/               \/      \/    \/
 #
-# Copyright (c) 2018 Stephen Shao <Stephen.Shao@emc.com>
+# Copyright (c) 2018 Stephen Shao <sjh311@gmail.com>
 #
 # This program is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the
@@ -97,7 +97,7 @@ class WorkloadWisdom(object):
             },
             {
                 "id": "58d2ded222314e308a940a0d",
-                "name": "Dur_LDX_001"
+                "name": "LDX_001"
             }
         """
 
@@ -123,7 +123,7 @@ class WorkloadWisdom(object):
     def get_appliance_by_name(self, name):
         """Get a appliance JSON object by its name.
 
-        :param name: appliance name, e.g. 'Dur_LDX_003'
+        :param name: appliance name, e.g. 'LDX_003'
         :return: :dict: dict of the appliance
         :rtype: dict
         """

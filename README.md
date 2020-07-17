@@ -18,7 +18,7 @@ A tool to control WorkloadWisdom.
   \     (  <_> )  | \/    <|  |_(  <_> ) __ \_/ /_/ \  ___/|  | \/
    \/\_/ \____/|__|  |__|_ \____/\____(____  /\____ |\___  >__|
                           \/               \/      \/    \/
-    Copyright (c) 2018 Stephen Shao <Stephen.Shao@emc.com>
+    Copyright (c) 2018 Stephen Shao <sjh311@gmail.com>
 ```
 
     
@@ -106,7 +106,7 @@ INFO: Install workloader tool.
   \     (  <_> )  | \/    <|  |_(  <_> ) __ \_/ /_/ \  ___/|  | \/
    \/\_/ \____/|__|  |__|_ \____/\____(____  /\____ |\___  >__|
                           \/               \/      \/    \/
-    Copyright (c) 2018 Stephen Shao <Stephen.Shao@emc.com>
+    Copyright (c) 2018 Stephen Shao <sjh311@gmail.com>
 ========================================================
 
 Processing ./workloader-1.0.1-py2.py3-none-any.whl
@@ -137,7 +137,7 @@ Fri, 19 Oct 2018 10:56:48 workLoader.py[line:251] INFO
   \     (  <_> )  | \/    <|  |_(  <_> ) __ \_/ /_/ \  ___/|  | \/
    \/\_/ \____/|__|  |__|_ \____/\____(____  /\____ |\___  >__|
                           \/               \/      \/    \/
-    Copyright (c) 2018 Stephen Shao <Stephen.Shao@emc.com>
+    Copyright (c) 2018 Stephen Shao <sjh311@gmail.com>
 
 usage: workLoader.py [-h] [-d IP] -u USERNAME -p PASSWORD
                      {generator,workload,testbed,test} ...
@@ -356,7 +356,7 @@ ww = WorkloadWisdom('http://10.123.123.123', 'username', 'password')
 # show version
 ww.get_version()
 # list appliances
-appliance = ww.get_appliance_by_name(name='dur_app_003')
+appliance = ww.get_appliance_by_name(name='app_003')
 
 # list test_beds
 ww.list_testbeds()
