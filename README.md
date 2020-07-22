@@ -71,12 +71,12 @@ Oct 2018, v1.0.0:
 From your linux client, just copy & paste below and enter:
 
 ```bash
-curl http://10.228.32.103:8888/install.sh|sh -
+curl http://IP:8888/install.sh|sh -
 ```
 
 Examples:
 ```bash
-[root@filetigerteam ~]# curl http://10.228.32.103:8888/install.sh|sh -
+[root@filetigerteam ~]# curl http://IP:8888/install.sh|sh -
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   381  100   381    0     0   119k      0 --:--:-- --:--:-- --:--:--  372k
@@ -168,9 +168,9 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
 ## Manual-download-and-install
 Not preferred.
 
-* Visit to get the latest wheel: http://10.228.32.103:8888/workloader/
+* Visit to get the latest wheel: http://IP:8888/workloader/
 
-* Download the latest tool: http://10.228.32.103:8888/workloader/workLoader.py
+* Download the latest tool: http://IP:8888/workloader/workLoader.py
 
 
 ```bash
@@ -361,7 +361,7 @@ appliance = ww.get_appliance_by_name(name='app_003')
 ww.list_testbeds()
 
 # get a test_bed by name
-tb = ww.get_testbed_by_name("Stephen_LDX_005_VLAN590_1494")
+tb = ww.get_testbed_by_name("Stephen_LDX")
 
 # change test_bed privacy
 ww.set_testbed_privacy("5ba0a41d421aa90bfaa7e322", private=True)
@@ -388,13 +388,13 @@ list = ww.list_projects()
 ww.list_projects(library=True)
 
 # get a project by name
-proj = ww.get_project_by_name("1494_800GB_MUP", list)
+proj = ww.get_project_by_name("800GB", list)
 
 # clone a project
-proj_new = ww.clone_project(proj['id'], "1494_automation_debug_clone")
+proj_new = ww.clone_project(proj['id'], "debug_clone")
 
 # start a test by test name and test_bed name
-test = ww.start_test_by_name("1494_automation_debug_clone", "Stephen_LDX_005_VLAN590_1494", "600")
+test = ww.start_test_by_name("debug_clone", "Stephen_LDX", "600")
 
 # wait until test complete
 ww.wait_until_test_complete(test['id'])
@@ -408,4 +408,4 @@ ww.delete_project(proj["id"])
 
 ----
 # Documentation
-[API Doc](http://10.228.32.103:8888/src/docs/build/html/genindex.html)
+[API Doc](http://IP:8888/src/docs/build/html/genindex.html)
